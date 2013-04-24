@@ -1,0 +1,24 @@
+{
+  "id": "bbc_one",
+  "name": "BBC One",
+  "type": "tv",
+  "toll": "free",
+  "languages": {
+    "default": "en-GB",
+    "audio": ["en-GB"],
+    "subtitles": ["en-GB"]
+  },
+  "availability": [],
+  "logo": {
+
+  },
+  "url": {
+    "home": "http://www.bbc.co.uk/bbcone",
+    "facebook": "https://www.facebook.com/BBCOne",
+    "twitter": "https://twitter.com/bbcone"
+  },
+  "events": {
+    "started": "1936-11-02T00:00:00.000Z",
+    "ended": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "bbc_alba",
+  "name": "BBC Alba",
+  "type": "tv",
+  "toll": "free",
+  "languages": {
+    "default": "gd-GB",
+    "audio": ["gd-GB"],
+    "subtitles": ["en-GB"]
+  },
+  "availability": [
+    { "from": "17:00", "to": "00:00" }
+  ],
+  "logo": {
+
+  },
+  "url": {
+    "home": "http://www.bbc.co.uk/alba/",
+    "facebook": "https://www.facebook.com/BBCAlba",
+    "twitter": "https://twitter.com/BellaBBCALBA"
+  },
+  "events": {
+    "started": "2008-09-19T21:00:00.000Z",
+    "ended": null
+  }
+}

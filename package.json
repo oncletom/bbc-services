@@ -1,0 +1,30 @@
+{
+  "name": "bbc-services",
+  "version": "0.1.0",
+  "description": "BBC Services List Experiment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oncletom/bbc-services.git"
+  },
+  "keywords": [
+    "bbc",
+    "json",
+    "services",
+    "api",
+    "broadcast"
+  ],
+  "author": "Thomas Parisot <thomas.parisot@bbc.co.uk>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-concat": "~0.2.0"
+  }
+}

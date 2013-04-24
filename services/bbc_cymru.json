@@ -1,0 +1,23 @@
+{
+  "id": "bbc_cymru",
+  "name": "BBC Cymru",
+  "type": "tv",
+  "toll": "free",
+  "languages": {
+    "default": "cy-GB",
+    "audio": ["cy-GB"],
+    "subtitles": ["en-GB"]
+  },
+  "availability": [],
+  "logo": {
+
+  },
+  "url": {
+    "home": "http://www.bbc.co.uk/cymru",
+    "twitter": "https://twitter.com/bbccymru"
+  },
+  "events": {
+    "started": "1964-02-09T00:00:00.000Z",
+    "ended": null
+  }
+}
