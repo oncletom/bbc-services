@@ -2,6 +2,7 @@
 
 module.exports = function(grunt) {
   grunt.initConfig({
+    now: (new Date()).toISOString(),
     jshint: {
       options: {
         jshintrc: ".jshintrc"
@@ -12,9 +13,9 @@ module.exports = function(grunt) {
         src: ["services/*.json", "!services/index.json"],
         dest: "services/index.json",
         options: {
-          banner: "[",
-          separator: ",\n",
-          footer: "]"
+          banner: grunt.file.read("src/generator/header.json"),
+          separator: "\n,\n",
+          footer: grunt.file.read("src/generator/footer.json")
         }
       }
     },
