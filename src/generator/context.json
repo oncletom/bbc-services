@@ -9,5 +9,9 @@
   "name": {
     "@id": "schema:BroadcastService#name",
     "@type": "http://www.w3.org/2001/XMLSchema#string"
+  },
+  "toll": {
+    "@id": "schema:BroadcastService#toll",
+    "@type": "http://www.w3.org/2001/XMLSchema#string"
   }
 }

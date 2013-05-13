@@ -10,10 +10,14 @@
   "name": {
     "@id": "schema:BroadcastService#name",
     "@type": "http://www.w3.org/2001/XMLSchema#string"
+  },
+  "toll": {
+    "@id": "schema:BroadcastService#toll",
+    "@type": "http://www.w3.org/2001/XMLSchema#string"
   }
 },
   "@id": "http://example.org/bbc-services",
-  "generatedAt": "2013-05-13T15:48:17.601Z",
+  "generatedAt": "2013-05-13T16:15:04.443Z",
   "@graph": [
 {
   "@id": "http://www.bbc.co.uk/alba/",
