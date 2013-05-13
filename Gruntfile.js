@@ -3,6 +3,7 @@
 module.exports = function(grunt) {
   grunt.initConfig({
     now: (new Date()).toISOString(),
+    context: grunt.file.read("src/generator/context.json"),
     jshint: {
       options: {
         jshintrc: ".jshintrc"
@@ -15,7 +16,7 @@ module.exports = function(grunt) {
         options: {
           banner: grunt.file.read("src/generator/header.json"),
           separator: "\n,\n",
-          footer: grunt.file.read("src/generator/footer.json")
+          footer: "]}"
         }
       }
     },
@@ -36,6 +37,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task.
-  grunt.registerTask('default', ['jshint']);
-
+  grunt.registerTask('default', ['jshint', 'build']);
+  grunt.registerTask('build', ['concat']);
 };
