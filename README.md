@@ -17,17 +17,17 @@ Because it is a **common need** for every project.
 
 ## Philosophy
 
-It MUST work for backend projects.
+It MUST work for any backend projects.
 
-It MUST work for frontend projects.
+It MUST work for any frontend projects.
 
 It MUST NOT require more than a single line of code to include the content.
 
-It MUST be let you the opportunity to upgrade safely.
+It MUST be let you the opportunity to [upgrade safely](http://semver.org/) to a newer version.
 
 ## Install
 
-> *Notice*: none of these methods work yet.
+> *Notice*: none of these methods is yet working.
 
 By either using one of this known working methods:
 
@@ -52,7 +52,7 @@ git submodule add https://github.com/oncletom/bbc-services.git <path of your ven
 
 ## Usage
 
-> *Notice*: none of these methods work yet.
+> *Notice*: none of these methods is yet working.
 
 ### Node.js Module
 
@@ -64,7 +64,7 @@ console.dir(services.bbc_one);
 
 ### Bundled Testable HTTP API
 
-Easy way to expode data for your local projects. Better than a *Lorem Ipsum*, real data!
+Easy way to expose data for your local projects. Better than a *Lorem Ipsum*, real data!
 
 ```bash
 npm start
