@@ -1,6 +1,13 @@
 {
+  "schema": "http://example.org/schemas/",
+  "tv": "schema:Tv",
+  "radio": "schema:Radio",
   "generatedAt": {
     "@id": "http://www.w3.org/ns/prov#generatedAtTime",
     "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+  },
+  "name": {
+    "@id": "schema:BroadcastService#name",
+    "@type": "http://www.w3.org/2001/XMLSchema#string"
   }
 }

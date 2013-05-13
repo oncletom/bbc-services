@@ -1,6 +1,6 @@
 {
   "@id": "http://www.bbc.co.uk/bbcthree",
-  "@type": "schema.TV",
+  "@type": "tv",
   "name": "BBC Three",
   "toll": "free",
   "languages": {

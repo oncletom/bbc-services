@@ -1,6 +1,6 @@
 {
   "@id": "http://www.bbc.co.uk/bbcone",
-  "@type": "schema.TV",
+  "@type": "tv",
   "name": "BBC One",
   "toll": "free",
   "languages": {

@@ -1,6 +1,6 @@
 {
   "@id": "http://www.bbc.co.uk/radio1",
-  "@type": "schema.Radio",
+  "@type": "radio",
   "name": "BBC Radio One",
   "toll": "free",
   "languages": {
