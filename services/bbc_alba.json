@@ -1,7 +1,7 @@
 {
-  "id": "bbc_alba",
+  "@id": "http://www.bbc.co.uk/alba/",
+  "@type": "schema.TV",
   "name": "BBC Alba",
-  "type": "tv",
   "toll": "free",
   "languages": {
     "default": "gd-GB",

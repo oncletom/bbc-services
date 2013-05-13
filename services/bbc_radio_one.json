@@ -1,0 +1,24 @@
+{
+  "@id": "http://www.bbc.co.uk/radio1",
+  "@type": "schema.Radio",
+  "name": "BBC Radio One",
+  "toll": "free",
+  "languages": {
+    "default": "en-GB",
+    "audio": ["en-GB"],
+    "subtitles": ["en-GB"]
+  },
+  "availability": [],
+  "logo": {
+
+  },
+  "url": {
+    "home": "http://www.bbc.co.uk/radio1",
+    "facebook": "https://www.facebook.com/bbcradio1‎",
+    "twitter": "https://twitter.com/BBCR1‎"
+  },
+  "events": {
+    "started": "1967-09-30T00:00:00.000Z",
+    "ended": null
+  }
+}

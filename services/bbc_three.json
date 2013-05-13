@@ -1,7 +1,7 @@
 {
-  "id": "bbc_three",
+  "@id": "http://www.bbc.co.uk/bbcthree",
+  "@type": "schema.TV",
   "name": "BBC Three",
-  "type": "tv",
   "toll": "free",
   "languages": {
     "default": "en-GB",

@@ -1,17 +1,17 @@
 {
   "@context": {
-    "generatedAt": {
-      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
-      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-    }
-  },
+  "generatedAt": {
+    "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+    "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+  }
+},
   "@id": "http://example.org/bbc-services",
-  "generatedAt": "2013-04-29T17:04:23.068Z",
+  "generatedAt": "2013-05-13T15:26:12.901Z",
   "@graph": [
 {
-  "id": "bbc_alba",
+  "@id": "http://www.bbc.co.uk/alba/",
+  "@type": "schema.TV",
   "name": "BBC Alba",
-  "type": "tv",
   "toll": "free",
   "languages": {
     "default": "gd-GB",
@@ -36,9 +36,9 @@
 }
 ,
 {
-  "id": "bbc_cymru",
+  "@id": "http://www.bbc.co.uk/cymru",
+  "@type": "schema.TV",
   "name": "BBC Cymru",
-  "type": "tv",
   "toll": "free",
   "languages": {
     "default": "cy-GB",
@@ -60,9 +60,9 @@
 }
 ,
 {
-  "id": "bbc_one",
+  "@id": "http://www.bbc.co.uk/bbcone",
+  "@type": "schema.TV",
   "name": "BBC One",
-  "type": "tv",
   "toll": "free",
   "languages": {
     "default": "en-GB",
@@ -85,9 +85,34 @@
 }
 ,
 {
-  "id": "bbc_three",
+  "@id": "http://www.bbc.co.uk/radio1",
+  "@type": "schema.Radio",
+  "name": "BBC Radio One",
+  "toll": "free",
+  "languages": {
+    "default": "en-GB",
+    "audio": ["en-GB"],
+    "subtitles": ["en-GB"]
+  },
+  "availability": [],
+  "logo": {
+
+  },
+  "url": {
+    "home": "http://www.bbc.co.uk/radio1",
+    "facebook": "https://www.facebook.com/bbcradio1‎",
+    "twitter": "https://twitter.com/BBCR1‎"
+  },
+  "events": {
+    "started": "1967-09-30T00:00:00.000Z",
+    "ended": null
+  }
+}
+,
+{
+  "@id": "http://www.bbc.co.uk/bbcthree",
+  "@type": "schema.TV",
   "name": "BBC Three",
-  "type": "tv",
   "toll": "free",
   "languages": {
     "default": "en-GB",
@@ -109,5 +134,4 @@
     "started": "2003-02-09T00:00:00.000Z",
     "ended": null
   }
-}  ]
-}
+}]}
